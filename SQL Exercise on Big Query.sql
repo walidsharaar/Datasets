@@ -14,3 +14,6 @@ group by 1;
 
 -- Write a query which returns all the users whose surname starts with C and credit score is greater than 700
 
+Select * 
+from `big-query-348313.Churn.Churn`
+where surname like 'C%' and CreditScore>700;
